@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { bookAppointment } from '../api';
 import './Appointment.css';
 
 const goals = [

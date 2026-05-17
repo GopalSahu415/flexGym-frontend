@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { submitLead } from '../api';
+
 import './Contact.css';
 
 export default function Contact() {
