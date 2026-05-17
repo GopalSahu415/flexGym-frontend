@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { getAdminStats, getLeads, getAppointments, updateLeadStatus, updateAppointmentStatus } from '../api';
 import './Admin.css';
 
 const ADMIN_PASS = 'flexgym@admin2024'; // In production, use proper auth
